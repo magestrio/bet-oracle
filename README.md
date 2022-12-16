@@ -1,17 +1,18 @@
-Oracle server for Bet zk application.
+# Oracle server for Bet zk application.
 
-This server is designed as a trustworthly oracle for Bet application. It can generate a list of bets the user will interact with.
+This server is designed as a trustworthly oracle for Bet application. It generates a list of bets that the user will interact with..
 
-For simplicity and test reasons, ability to govern server with enpoints was added.
+For simplicity and easy testability the ability to manage the server using endpoints has been added.
 
 It consists of 3 endpoints.
-    - http://localhost:3005/bets - Returning the list of bets
-    - http://localhost:3005/generate - reset current bets to original state
-    - http://localhost:3005/reveal - reveal results of <b>all</b> bets
-    - http://localhost:3005/reveal?id=? - reveal the result of a bet with id ?
+<ul>
+  <li>http://localhost:3005/bets - Returning the list of bets</li>
+  <li>http://localhost:3005/generate - reset current bets to original state</li>
+  <li>http://localhost:3005/reveal - reveal results of <b>all</b> bets</li>
+  <li>http://localhost:3005/reveal?id=? - reveal the result of a bet with id ?</li>
+</ul>
 
-
-Example of the response:
+## Example of the response:
 ```json
 {
     "ongoing_bets": [
@@ -48,13 +49,14 @@ Example of the response:
 }
 ```
 
-Steps to lauch the app:
-    1) npm install
-    2) tsc
-    3) node .
-    4) Run anywhere http://localhost:3005/generate, so new bets will be generated
-    5) Make your bet (in the app)
-    6) Find out who won: http://localhost:3005/reveal?id=6
-    7) Claim your reward if you won (in the app)!!!
+## Steps to lauch the app
+<ol>
+  <li>npm install</li>
+  <li>tsc && node .</li>
+  <li>Run anywhere http://localhost:3005/generate, so new bets will be generated</li>
+  <li>Make your bet (in the app)</li>
+  <li>Find out who won: http://localhost:3005/reveal?id=6</li>
+  <li>Claim your reward if you won (in the app)!!!</li>
+</ol>
 
-Note: to win 100% you could choose the bet with id 5 and the bet option with id 0. You could find a template in the template.json file. 
+<b>Note</b>: to win 100% you could choose the bet with id 5 and the bet option with id 0. You could find a template in the template.json file. 
