@@ -1,0 +1,92 @@
+{
+    "ongoing_bets": [
+        {
+            "id": 5,
+            "name": "Nederland vs Argentina",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
+            "bet_options": [
+                {
+                    "id": 0,
+                    "name": "Nederland win",
+                    "description": "Bla bla bla"
+                },
+                {
+                    "id": 1,
+                    "name": "Argentina win",
+                    "description": "Bla bla bla"
+                },
+                {
+                    "id": 2,
+                    "name": "Friendship win",
+                    "description": "Bla bla bla"
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "name": "England vs France",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
+            "bet_options": [
+                {
+                    "id": 0,
+                    "name": "England win",
+                    "description": "Bla bla bla"
+                },
+                {
+                    "id": 1,
+                    "name": "France win",
+                    "description": "Bla bla bla"
+                },
+                {
+                    "id": 2,
+                    "name": "Friendship win",
+                    "description": "Bla bla bla"
+                }
+            ]
+        },
+        {
+            "id": 7,
+            "name": "Morocco vs Portugal",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            "bet_options": [
+                {
+                    "id": 0,
+                    "name": "Morocco win",
+                    "description": "Bla bla bla"
+                },
+                {
+                    "id": 1,
+                    "name": "Portugal win",
+                    "description": "Bla bla bla"
+                },
+                {
+                    "id": 2,
+                    "name": "Friendship win",
+                    "description": "Bla bla bla"
+                }
+            ]
+        },
+        {
+            "id": 8,
+            "name": "Croatia vs Portugal",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            "bet_options": [
+                {
+                    "id": 0,
+                    "name": "Croatia win",
+                    "description": "Bla bla bla"
+                },
+                {
+                    "id": 1,
+                    "name": "Portugal win",
+                    "description": "Bla bla bla"
+                },
+                {
+                    "id": 2,
+                    "name": "Friendship win",
+                    "description": "Bla bla bla"
+                }
+            ]
+        }
+    ]
+}
