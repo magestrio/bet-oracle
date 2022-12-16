@@ -8,7 +8,7 @@ It consists of 3 endpoints.
 <ul>
   <li>http://localhost:3005/bets - Returning the list of bets</li>
   <li>http://localhost:3005/generate - reset current bets to original state</li>
-  <li>http://localhost:3005/reveal - reveal results of <b>all</b> bets</li>
+  <li>http://localhost:3005/reveal - reveal results of all the bets</li>
   <li>http://localhost:3005/reveal?id=? - reveal the result of a bet with id ?</li>
 </ul>
 
@@ -59,9 +59,17 @@ It consists of 3 endpoints.
   <li>Claim your reward if you won (in the app)!!!</li>
 </ol>
 
-<b>Note</b>: to win 100% you could choose the bet with id 5 and the bet option with id 0. You could find a template in the template.json file. 
+Check out BetAppContract.test.ts in [Bet App Smart Contracts](https://github.com/magestrio/bet-app-zk-contracts) to see how it works
 
-## Main application locations
-  - https://github.com/magestrio/bet-app-zk-contracts (Smart Contracts)
-  - https://github.com/magestrio/bet-app-zk-ui (UI)
+<b>Note</b>: to win 100% you can choose bet id 5 and bet variant id 0.
+
+## All repository locations:
+  - (UI) https://github.com/magestrio/bet-app-zk-ui
+  - (Smart Contracts) https://github.com/magestrio/bet-app-zk-contracts
+  - (Oracle) https://github.com/magestrio/bet-oracle (you are here)
+  - (Off-chain) https://github.com/magestrio/bet-offchain
+  
+## License
+
+[Apache-2.0](LICENSE)
 
