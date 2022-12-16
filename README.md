@@ -60,3 +60,8 @@ It consists of 3 endpoints.
 </ol>
 
 <b>Note</b>: to win 100% you could choose the bet with id 5 and the bet option with id 0. You could find a template in the template.json file. 
+
+## Main application locations
+  - https://github.com/magestrio/bet-app-zk-contracts (Smart Contracts)
+  - https://github.com/magestrio/bet-app-zk-ui (UI)
+
